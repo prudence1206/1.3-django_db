@@ -9,9 +9,23 @@ class Command(BaseCommand):
         pass
 
     def handle(self, *args, **options):
+        count = 0
+        head = ''
         with open('phones.csv', 'r') as file:
             phones = list(csv.DictReader(file, delimiter=';'))
 
         for phone in phones:
-            # TODO: Добавьте сохранение модели
-            pass
+            print(phone['id'])
+            new_phone = Phone(
+                name=phone['name'],
+                image=phone['image'],
+                price=phone['price'],
+                release_date=phone['release_date'],
+                lte_exists=phone['lte_exists'],
+                slug=phone['name']
+            )
+            new_phone.save()
+            print(new_phone.image)
+        #Phone.objects.all().delete()
+
+
