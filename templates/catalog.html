@@ -18,9 +18,10 @@
     </div>
 
     <div class="content">
+      <h3>{{ phone }}</h3>
       {% for phone in phones %}
         <div class="phone">
-          <a href="{% url 'phone' phone.slug %}">
+        <a href="{% url 'phone' phone.slug %}">
             <h3>{{ phone.name }}</h3>
           </a>
           <div class="price">Стоимость: {{ phone.price }} ₽</div>

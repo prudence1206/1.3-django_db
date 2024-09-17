@@ -10,14 +10,15 @@ def index(request):
 def show_catalog(request):
     template = 'catalog.html'
     all_phones = Phone.objects.all()
-    context = {'phone':all_phones}
-    print(all_phones)
+    context = {'phones':all_phones}
+    print(context['phones'])
     return render(request, template, context)
 
 
 def show_product(request, slug):
     template = 'product.html'
-    context = {'phone':Phone.objects.all()}
+    phone = Phone.objects.filter()
+    context = {'phones':Phone.objects.filter()}
     return render(request, template, context)
 
 

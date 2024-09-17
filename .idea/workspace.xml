@@ -4,15 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="625bae30-6603-45c7-a749-34836039cdeb" name="Changes" comment="Создан проект">
-      <change afterPath="$PROJECT_DIR$/phones/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/s2t.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/work_with_database.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/work_with_database.iml" afterDir="false" />
+    <list default="true" id="625bae30-6603-45c7-a749-34836039cdeb" name="Changes" comment="На проверку">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/phones/management/commands/import_phones.py" beforeDir="false" afterPath="$PROJECT_DIR$/phones/management/commands/import_phones.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/phones/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/phones/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/catalog.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/catalog.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +23,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="SET_USER_NAME_GLOBALLY" value="false" />
   </component>
   <component name="GitHubPullRequestSearchHistory"><![CDATA[{
   "lastFilter": {
@@ -90,7 +86,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722347931297</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="На проверку">
+      <option name="closed" value="true" />
+      <created>1726580723377</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1726580723377</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -107,6 +111,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Создан проект" />
-    <option name="LAST_COMMIT_MESSAGE" value="Создан проект" />
+    <MESSAGE value="На проверку" />
+    <option name="LAST_COMMIT_MESSAGE" value="На проверку" />
   </component>
 </project>
