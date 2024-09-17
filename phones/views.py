@@ -9,13 +9,15 @@ def index(request):
 
 def show_catalog(request):
     template = 'catalog.html'
-    context = {}
+    all_phones = Phone.objects.all()
+    context = {'phone':all_phones}
+    print(all_phones)
     return render(request, template, context)
 
 
 def show_product(request, slug):
     template = 'product.html'
-    context = {}
+    context = {'phone':Phone.objects.all()}
     return render(request, template, context)
 
 
@@ -24,4 +26,7 @@ def s1(request):
     print(car_objects)
     cars = [f'{c.id}: {c.name}, {c.image}: {c.price}: {c.slug}' for c in car_objects]
     return HttpResponse(cars)
-
+def s2(request):
+    context = {"query_results":Phone.objects.all()}
+    template = 's2t.html'
+    return render(request, template, context=context)
