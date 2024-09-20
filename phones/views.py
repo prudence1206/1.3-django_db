@@ -1,3 +1,5 @@
+from lib2to3.fixes.fix_input import context
+
 from django.shortcuts import render, redirect
 from phones.models import Phone
 from django.http import HttpResponse
@@ -9,7 +11,12 @@ def index(request):
 
 def show_catalog(request):
     template = 'catalog.html'
-    all_phones = Phone.objects.all()
+    if request.GET['sort']=='min_price':
+        all_phones = Phone.objects.order_by('price')
+    elif request.GET['sort']=='max_price':
+        all_phones = Phone.objects.order_by('-price')
+    else:
+        all_phones = Phone.objects.order_by('name')
     context = {'phones':all_phones}
     print(context['phones'])
     return render(request, template, context)
@@ -17,8 +24,7 @@ def show_catalog(request):
 
 def show_product(request, slug):
     template = 'product.html'
-    phone = Phone.objects.filter()
-    context = {'phones':Phone.objects.filter()}
+    context = {'phones':Phone.objects.all()}
     return render(request, template, context)
 
 
