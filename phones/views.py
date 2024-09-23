@@ -11,15 +11,19 @@ def index(request):
 
 def show_catalog(request):
     template = 'catalog.html'
+    print(request.GET['/'])
+    '''all_phones = Phone.objects.order_by('name')
     if request.GET['sort']=='min_price':
         all_phones = Phone.objects.order_by('price')
     elif request.GET['sort']=='max_price':
         all_phones = Phone.objects.order_by('-price')
+    elif request.GET['sort']=='name':
+        all_phones = Phone.objects.order_by('name')
     else:
         all_phones = Phone.objects.order_by('name')
     context = {'phones':all_phones}
     print(context['phones'])
-    return render(request, template, context)
+    return render(request, template, context)'''
 
 
 def show_product(request, slug):
