@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="625bae30-6603-45c7-a749-34836039cdeb" name="Changes" comment="order_by release!!!&#10;one more thing: show product is not release">
+    <list default="true" id="625bae30-6603-45c7-a749-34836039cdeb" name="Changes" comment="Lesson is complete!all works">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/phones/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/phones/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,7 +116,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727084729434</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Lesson is complete!all works">
+      <option name="closed" value="true" />
+      <created>1727173801628</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1727173801628</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -137,6 +144,7 @@
     <MESSAGE value="На проверку" />
     <MESSAGE value="Каталог заработал! Нужно доделать вызов продукта и сортировку" />
     <MESSAGE value="order_by release!!!&#10;one more thing: show product is not release" />
-    <option name="LAST_COMMIT_MESSAGE" value="order_by release!!!&#10;one more thing: show product is not release" />
+    <MESSAGE value="Lesson is complete!all works" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lesson is complete!all works" />
   </component>
 </project>
